@@ -1,5 +1,5 @@
 # Hotel_Booking
-In this analysis, we analyzed the Hotel Bookings dataset to gain insights from the reservation patterns of customers using Python programming language.
+In this analysis, we analyzed the Hotel Bookings dataset to gain insights from the reservation patterns of customers using Python programming language.\
 **Author Name:** Ali Hassan\
 **Email:** official.aharain@outlook.com\
 **Website:** https://contra.com/arainofficial \
