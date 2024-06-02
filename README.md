@@ -81,7 +81,50 @@ The dataset consists of various attributes related to hotel bookings, including 
 
 By conducting this analysis, we aim to provide actionable insights to hotel management, marketing teams, and other stakeholders, allowing them to make informed decisions to optimize hotel operations, improve guest satisfaction, and maximize revenue.
 
+## Project Scope: Hotel Booking Analysis
 
+### Introduction
+The primary objective of this project is to analyze the Hotel Bookings dataset using Python to uncover interesting details about the booking patterns and trends. The dataset includes information such as the type of hotel, country of booking, arrival date, number of visitors, etc.
 
-## Details about this project
-A detailed report has been made to understand the code in a very sophisticated manner. You can check out the report using the following [link](https://contra.com/p/eoQOcvrM-hotel-booking-project)
+### Project Steps:
+
+1. **Importing Required Libraries**:
+   - **Libraries**: pandas, matplotlib, seaborn, warnings
+   - **Purpose**: To facilitate data processing, visualization, and handling warnings.
+
+2. **Reading the Dataset**:
+   - **Method**: pandas `read_csv()` function
+   - **Purpose**: To load the dataset into a DataFrame and get an initial overview using `tail()`, `shape()`, and `info()` functions.
+
+3. **Data Cleaning**:
+   - **Transformations**: Convert `reservation_status_date` to datetime format using `pd.to_datetime()`.
+   - **Handling Missing Data**: Remove rows with missing data using `dropna()`.
+   - **Removal of Columns**: Delete 'company' and 'agent' columns due to high missing values.
+
+4. **Data Exploration and Visualization**:
+
+   - **Exploratory Data Analysis**:
+     - **Purpose**: To get unique counts and totals of variables like `hotel`, `is_canceled`, `meal`, `country`, etc.
+     - **Visualization Tools**: seaborn, matplotlib
+
+5. **Descriptive Statistics**:
+   - **Key Metrics**: Using `describe()` to understand basic statistical details like count, mean, std, min, max, and percentiles.
+
+6. **Trend Analysis**:
+   - **Booking Trends**: Analyze patterns over years, months, and week numbers.
+   - **Cancellation Trends**: Identify reasons and patterns in booking cancellations.
+   - **Guest Demographics**: Examine the distribution of guest types and their origin.
+
+7. **Correlation Analysis**:
+   - **Correlation Matrix**: Identify correlations between different numerical features.
+
+### Results
+- Insights gained from analyzing booking trends, guest demographics, cancellation patterns, and room assignments.
+- Visualization of key trends and correlations to aid in data interpretation.
+
+### Conclusion
+- Summarize the key findings and their implications for hotel management and operations.
+- Provide recommendations based on the analysis to improve guest satisfaction and operational efficiency.
+
+## Detailed Report
+A detailed report has been created to provide an in-depth understanding of the code and analysis. You can access the report using the following [link](https://contra.com/p/eoQOcvrM-hotel-booking-project).
